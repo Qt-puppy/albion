@@ -1,0 +1,4 @@
+# Type X Y Width Height TextureID
+PLAYER 400 300 64 64 player_image
+ENEMY 600 300 64 64 enemy_image
+ENEMY 600 400 64 64 enemy_image
