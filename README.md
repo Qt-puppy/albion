@@ -1,7 +1,6 @@
-# Albion Engine ⚙️
+# Albion Engine 
 
-**Author:** Kavin Moudgil  
-**Tech Stack:** C++17, SDL2, SDL2_image, Dear ImGui, CMake
+<img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17" /> <img src="https://img.shields.io/badge/SDL2-132B48?style=for-the-badge&logo=sdl&logoColor=white" alt="SDL2" /> <img src="https://img.shields.io/badge/SDL2_image-132B48?style=for-the-badge&logo=sdl&logoColor=white" alt="SDL2_image" /> <img src="https://img.shields.io/badge/Dear_ImGui-4B4B4B?style=for-the-badge&logo=imgur&logoColor=white" alt="Dear ImGui" /> <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
 
 Albion is a highly optimized, 2D game engine architecture built entirely from scratch. It was engineered to demonstrate low-level systems programming concepts, prioritizing CPU cache locality, hardware-agnostic physics, and decoupled logic via a custom Entity-Component-System (ECS).
 
@@ -9,7 +8,7 @@ Albion is a highly optimized, 2D game engine architecture built entirely from sc
 
 ---
 
-## 🚀 Core Architectural Pillars
+## Core Architectural Pillars
 
 ### 1. Data-Oriented ECS (Entity-Component-System)
 
@@ -31,7 +30,7 @@ Instead of relying on fragmented Object-Oriented memory, Albion utilizes a custo
 
 ---
 
-## 📊 The "Billiard Swarm" Benchmark
+## The "Billiard Swarm" Benchmark
 
 To stress-test the contiguous memory pools, Albion includes an interactive physics benchmark. Using the ImGui developer console, users can inject entities into the active arena at runtime. The engine handles continuous AABB bounding-box calculations, velocity inversions, and rendering for the entire swarm while maintaining a locked framerate.
 
